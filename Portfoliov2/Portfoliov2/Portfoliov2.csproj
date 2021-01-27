@@ -130,7 +130,7 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Prototype\Styles\Site.css" />
+    <Content Include="Prototype\Site.css" />
     <Content Include="Prototype\Index.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -151,6 +151,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Content\" />
     <Folder Include="Models\" />
+    <Folder Include="Prototype\Styles\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
