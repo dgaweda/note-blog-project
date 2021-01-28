@@ -131,8 +131,11 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Prototype\Images\img1.jpg" />
+    <Content Include="Prototype\Images\img2.png" />
+    <Content Include="Prototype\Images\img3.jpg" />
     <Content Include="Prototype\Site.css" />
     <Content Include="Prototype\Index.html" />
+    <Content Include="Prototype\slider.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
