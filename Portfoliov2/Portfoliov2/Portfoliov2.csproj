@@ -130,6 +130,7 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Prototype\aboutMe.html" />
     <Content Include="Prototype\Images\article_background.png" />
     <Content Include="Prototype\Images\img1.jpg" />
     <Content Include="Prototype\Images\img2.png" />
