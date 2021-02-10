@@ -135,6 +135,7 @@
     <Content Include="Prototype\Images\img1.jpg" />
     <Content Include="Prototype\Images\img2.png" />
     <Content Include="Prototype\Images\img3.jpg" />
+    <Content Include="Prototype\Images\Me.jpg" />
     <Content Include="Prototype\Images\slideEdge.jpg" />
     <Content Include="Prototype\Site.css" />
     <Content Include="Prototype\Index.html" />

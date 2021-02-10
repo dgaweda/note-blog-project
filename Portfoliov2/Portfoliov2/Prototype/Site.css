@@ -69,11 +69,11 @@ article {
         position: relative;
         top: 20px;
         padding: 5px 20px 5px 20px;
-        color:white;
+        color: white;
     }
 
         .menu-nav a:hover, .menu-nav a:active {
-            color:cornflowerblue;
+            color: cornflowerblue;
             border-top: 1px solid white;
             border-bottom: 1px solid white;
         }
@@ -82,6 +82,24 @@ article {
     max-width: 75%;
     position: relative;
     margin: auto;
+}
+
+.Me {
+    position: relative;
+    width: 100%;
+    height:400px;
+}
+.left {
+    position: relative;
+    float: left;
+    height:100%;
+    width: 30%;
+    
+}
+.right {
+    position: relative;
+    float: right;
+    width: 70%;
 }
 
 .SlideDisplay {
@@ -121,7 +139,7 @@ article {
     margin: 0 auto;
     font-weight: bold;
     padding: 20px 30px 0px 30px;
-    line-height:1.6;
+    line-height: 1.6;
 }
 
 footer {
@@ -131,7 +149,7 @@ footer {
     background-color: black;
     padding-top: 30px;
     padding-bottom: 30px;
-    color:white;
+    color: white;
 }
 
 .headers {
@@ -144,6 +162,18 @@ footer {
     padding: 10px 10px 10px 10px;
     font-size: 18px;
 }
+
 #gray {
     color: dimgray;
 }
+
+/*ABOUT ME LINKS*/
+.facebook {
+    background-image:facebook
+}
+.pracuj {
+
+}
+.youtube {
+
+}   
