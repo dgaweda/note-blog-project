@@ -87,19 +87,20 @@ article {
 .Me {
     position: relative;
     width: 100%;
-    height:400px;
+    height: 400px;
 }
+
 .left {
     position: relative;
     float: left;
-    height:100%;
+    height: 100%;
     width: 30%;
-    
 }
+
 .right {
     position: relative;
     float: right;
-    width: 70%;
+    width: 65%;
 }
 
 .SlideDisplay {
@@ -140,6 +141,7 @@ article {
     font-weight: bold;
     padding: 20px 30px 0px 30px;
     line-height: 1.6;
+    min-height:85vh;
 }
 
 footer {
@@ -163,17 +165,25 @@ footer {
     font-size: 18px;
 }
 
+.refs {
+    font-size: 30px;
+    padding: 10px 10px 10px 10px;
+    text-align:center;
+}
+    .refs a {
+        margin-left:5%;
+        padding:10px 10px 10px 10px;
+        box-sizing:border-box;
+    }
+
+        .refs a:hover, .refs a:active {
+            border-top: 2px solid gray;
+            border-bottom: 2px solid gray;
+        }
+
 #gray {
     color: dimgray;
 }
 
 /*ABOUT ME LINKS*/
-.facebook {
-    background-image:facebook
-}
-.pracuj {
 
-}
-.youtube {
-
-}   
