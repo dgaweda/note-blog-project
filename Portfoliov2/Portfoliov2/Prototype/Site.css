@@ -141,7 +141,7 @@ article {
     font-weight: bold;
     padding: 20px 30px 0px 30px;
     line-height: 1.6;
-    min-height:85vh;
+    min-height: 85vh;
 }
 
 footer {
@@ -168,12 +168,13 @@ footer {
 .refs {
     font-size: 30px;
     padding: 10px 10px 10px 10px;
-    text-align:center;
+    text-align: center;
 }
+
     .refs a {
-        margin-left:5%;
-        padding:10px 10px 10px 10px;
-        box-sizing:border-box;
+        margin-left: 5%;
+        padding: 10px 10px 10px 10px;
+        box-sizing: border-box;
     }
 
         .refs a:hover, .refs a:active {
@@ -187,3 +188,37 @@ footer {
 
 /*ABOUT ME LINKS*/
 
+.note {
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: center;
+    border: 2px solid gray;
+    box-shadow: 0 0 1em gray;
+}
+
+    .note p, nav {
+        padding: 5px 5px 5px 5px;
+        position: relative;
+        float: left;
+        margin: 5px 5px 5px 5px;
+        border: 2px solid gray;
+        min-height: 100%;
+    }
+
+    .note #title {
+    }
+
+    .note #date {
+    }
+
+    .note #textArea {
+    }
+
+    .note #edit, #delete {
+        float: right;
+    }
+
+    .note #delete {
+        clear: right;
+    }

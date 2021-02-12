@@ -132,11 +132,14 @@
     <Content Include="Global.asax" />
     <Content Include="Prototype\aboutMe.html" />
     <Content Include="Prototype\Images\article_background.png" />
+    <Content Include="Prototype\Images\dg.jpg" />
     <Content Include="Prototype\Images\img1.jpg" />
     <Content Include="Prototype\Images\img2.png" />
     <Content Include="Prototype\Images\img3.jpg" />
     <Content Include="Prototype\Images\Me.jpg" />
+    <Content Include="Prototype\Images\portfolio.png" />
     <Content Include="Prototype\Images\slideEdge.jpg" />
+    <Content Include="Prototype\Notes.html" />
     <Content Include="Prototype\Site.css" />
     <Content Include="Prototype\Index.html" />
     <Content Include="Prototype\slideEdge.html" />
