@@ -190,35 +190,64 @@ footer {
 
 .note {
     position: relative;
-    float: left;
     width: 100%;
     text-align: center;
-    border: 2px solid gray;
+    float: left;
     box-shadow: 0 0 1em gray;
 }
 
-    .note p, nav {
+    .note p {
         padding: 5px 5px 5px 5px;
         position: relative;
-        float: left;
         margin: 5px 5px 5px 5px;
-        border: 2px solid gray;
+        float:left;
         min-height: 100%;
+        border:1px solid black;
     }
 
     .note #title {
+        width:15%;
+        float:left;
+        height:100%;
     }
 
     .note #date {
+        writing-mode:vertical-rl;
+        width: 10%;
+        border: 1px solid black;
+        position:relative;
+        left:70px;
     }
 
     .note #textArea {
+        position: relative;
+        text-align: center;
+        vertical-align: central;
+        max-width: 55%;
+        max-height:100px;
+        word-wrap: break-word;
+        overflow:auto;
+        font-size:14px;
     }
 
     .note #edit, #delete {
+        margin: 5px 5px 5px 5px;
+        padding: 5px 5px 5px 5px;
         float: right;
+        border-radius: 10%;
+        width: 10%;
+        clear: right;
     }
+        .note #edit:hover, #delete:hover, #edit:active, #delete:active {
+            background-color: whitesmoke;
+            border-left: 1px solid cornflowerblue;
+            border-right: 1px solid cornflowerblue;
+        }
 
     .note #delete {
-        clear: right;
+        
+    }
+
+    .note div {
+        
     }
