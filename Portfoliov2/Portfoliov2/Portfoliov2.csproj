@@ -127,6 +127,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Images\article_background.png" />
+    <Content Include="Content\Images\dg.jpg" />
+    <Content Include="Content\Images\img1.jpg" />
+    <Content Include="Content\Images\img2.png" />
+    <Content Include="Content\Images\img3.jpg" />
+    <Content Include="Content\Images\Me.jpg" />
+    <Content Include="Content\Images\portfolio.png" />
+    <Content Include="Content\Images\slideEdge.jpg" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Content\slider.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -161,7 +171,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\" />
     <Folder Include="Models\" />
     <Folder Include="Prototype\Styles\" />
   </ItemGroup>
