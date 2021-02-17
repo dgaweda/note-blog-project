@@ -78,6 +78,15 @@
         "runtime": {
           "lib/net45/Newtonsoft.Json.dll": {}
         }
+      },
+      "Portfoliov2/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Portfoliov2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Portfoliov2.dll": {}
+        }
       }
     },
     ".NETFramework,Version=v4.6.1/win": {
@@ -156,6 +165,15 @@
         },
         "runtime": {
           "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Portfoliov2/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Portfoliov2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Portfoliov2.dll": {}
         }
       }
     },
@@ -236,6 +254,15 @@
         "runtime": {
           "lib/net45/Newtonsoft.Json.dll": {}
         }
+      },
+      "Portfoliov2/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Portfoliov2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Portfoliov2.dll": {}
+        }
       }
     },
     ".NETFramework,Version=v4.6.1/win-x86": {
@@ -314,6 +341,15 @@
         },
         "runtime": {
           "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Portfoliov2/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Portfoliov2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Portfoliov2.dll": {}
         }
       }
     }
@@ -571,6 +607,11 @@
         "newtonsoft.json.12.0.2.nupkg.sha512",
         "newtonsoft.json.nuspec"
       ]
+    },
+    "Portfoliov2/1.0.0": {
+      "type": "project",
+      "path": "../Portfoliov2/Portfoliov2.csproj",
+      "msbuildProject": "../Portfoliov2/Portfoliov2.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -581,7 +622,8 @@
       "Microsoft.AspNet.Razor >= 3.2.7",
       "Microsoft.AspNet.WebPages >= 3.2.7",
       "Microsoft.Web.Infrastructure >= 1.0.0",
-      "Newtonsoft.Json >= 12.0.2"
+      "Newtonsoft.Json >= 12.0.2",
+      "Portfoliov2 >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -610,7 +652,11 @@
       },
       "frameworks": {
         "net461": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Darek\\source\\repos\\Portfolio\\Portfoliov2\\Portfoliov2\\Portfoliov2.csproj": {
+              "projectPath": "C:\\Users\\Darek\\source\\repos\\Portfolio\\Portfoliov2\\Portfoliov2\\Portfoliov2.csproj"
+            }
+          }
         }
       }
     },
