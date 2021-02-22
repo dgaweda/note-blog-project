@@ -76,4 +76,3 @@ C:\Users\Darek\source\repos\Portfolio\Portfoliov2\Portfoliov2\obj\Debug\Portfoli
 C:\Users\Darek\source\repos\Portfolio\Portfoliov2\Portfoliov2\obj\Debug\Portfoliov2.csproj.CopyComplete
 C:\Users\Darek\source\repos\Portfolio\Portfoliov2\Portfoliov2\obj\Debug\Portfoliov2.dll
 C:\Users\Darek\source\repos\Portfolio\Portfoliov2\Portfoliov2\obj\Debug\Portfoliov2.pdb
-C:\Users\Darek\source\repos\Portfolio\Portfoliov2\Portfoliov2\obj\Debug\Portfoliov2.csprojAssemblyReference.cache

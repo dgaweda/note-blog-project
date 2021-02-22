@@ -124,6 +124,14 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Article.cs" />
+    <Compile Include="Models\Education.cs" />
+    <Compile Include="Models\Hobby.cs" />
+    <Compile Include="Models\Menu.cs" />
+    <Compile Include="Models\Note.cs" />
+    <Compile Include="Models\Person.cs" />
+    <Compile Include="Models\Technology.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -170,7 +178,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
     <Folder Include="Prototype\Styles\" />
   </ItemGroup>
   <ItemGroup>
