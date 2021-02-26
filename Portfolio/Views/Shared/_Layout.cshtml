@@ -1,0 +1,55 @@
+﻿@model Portfolio.ViewModels.HomeViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="@Url.Content("~/Content/Site.css")">
+    <link rel="icon" href="@Url.Content("~/Content/Images/portfolio.png")" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <span class="name">
+            Hi! I'm <a href="link">Darek!</a>
+        </span>
+        <nav class="menu-nav">
+            @foreach (var menu in Model.Menus)
+            {
+            <a href="Index.html">
+               @menu.Name
+            </a>
+            }
+
+            <a href="https://github.com/dgaweda" target="_blank">
+                GITHUB
+            </a>
+
+            <a href="slideEdge.html">
+                SLIGHT EDGE
+            </a>
+
+            <a href="aboutMe.html">
+                ABOUT ME
+            </a>
+
+            <a href="Notes.html">
+                NOTES
+            </a>
+        </nav>
+    </header>
+
+    <article>
+        @RenderBody()
+    </article>
+
+    <footer>
+        © 2021 Dariusz Gawęda - ASP.NET MVC app
+    </footer>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+
+
