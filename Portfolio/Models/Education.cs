@@ -7,7 +7,7 @@ namespace Portfolio.Models
 {
     public class Education
     {
-        public int EducationID { get; set; }
+        public int EducationId { get; set; }
         public string Name { get; set; }
         public string Major { get; set; }
         public DateTime From { get; set; }

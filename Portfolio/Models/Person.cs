@@ -7,14 +7,14 @@ namespace Portfolio.Models
 {
     public class Person
     {
-        public int PersonID { get; set; }
+        public int PersonId { get; set; }
         public string Name { get; set; }
         public string Lastname { get; set; }
-        public int EducationID { get; set; }
-        public int HobbyID { get; set; }
-        public int TechnologyID { get; set; }
+        public int EducationId { get; set; }
+        public int HobbyId { get; set; }
+        public int TechnologyId { get; set; }
         public string GeneralInfo { get; set; }
-        public int NoteID { get; set; }
+        public int NoteId { get; set; }
         public bool Logged { get; set; }
 
         public virtual ICollection<Education> Educations { get; set; }

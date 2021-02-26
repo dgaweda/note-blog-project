@@ -7,7 +7,7 @@ namespace Portfolio.Models
 {
     public class Note
     {
-        public int NoteID { get; set; }
+        public int NoteId { get; set; }
         public string Title { get; set; }
         public string Objectives { get; set; }
         public DateTime Date { get; set; }

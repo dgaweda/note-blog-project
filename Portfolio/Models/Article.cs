@@ -7,7 +7,7 @@ namespace Portfolio.Models
 {
     public class Article
     {
-        public int ArticleID { get; set; }
+        public int ArticleId { get; set; }
         public string Name { get; set; }
         public string Content { get; set; }
         public int MenuPositionID { get; set; }

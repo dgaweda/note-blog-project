@@ -7,7 +7,7 @@ namespace Portfolio.Models
 {
     public class Technology
     {
-        public int TechnologyID { get; set; }
+        public int TechnologyId { get; set; }
         public string Name { get; set; }
         public string FromWhen { get; set; }
 
