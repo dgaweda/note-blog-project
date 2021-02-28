@@ -9,9 +9,10 @@ namespace Portfolio.Models
     public class Menu
     {
         [Key]
-        public int MenuPositionID { get; set; }
+        public int MenuId { get; set; }
         public string Reference { get; set; }
         public string Name { get; set; }
+        public string Blank { get; set; }
 
         public virtual ICollection<Article> Articles { get; set; }
     }

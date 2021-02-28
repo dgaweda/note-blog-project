@@ -77,9 +77,11 @@ C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.csproj.CoreC
 C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.csproj.CopyComplete
 C:\Users\Darek\source\repos\Portfolio\Portfolio\bin\System.Data.SqlClient.dll
 C:\Users\Darek\source\repos\Portfolio\Portfolio\bin\System.Data.SqlClient.xml
-C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.csprojAssemblyReference.cache
 C:\Users\Darek\source\repos\Portfolio\Portfolio\bin\Portfolio.dll.config
 C:\Users\Darek\source\repos\Portfolio\Portfolio\bin\Portfolio.dll
 C:\Users\Darek\source\repos\Portfolio\Portfolio\bin\Portfolio.pdb
 C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.dll
 C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.pdb
+C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.Migrations.InitialCreate.resources
+C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.csproj.GenerateResource.cache
+C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.Migrations.NewModelsAndSeedDataUpdate.resources

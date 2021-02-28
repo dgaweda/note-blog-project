@@ -11,12 +11,9 @@ namespace Portfolio.Controllers
 {
     public class HomeController : Controller
     {
-        private Model1 db = new Model1();
+        private PortfolioContext db = new PortfolioContext();
         public ActionResult Index()
         {
-            Menu menu = new Menu() { Reference = "example", Name = "START" };
-            db.Menus.Add(menu);
-            db.SaveChanges();
             return View();
         }
     }

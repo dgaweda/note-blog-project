@@ -9,5 +9,6 @@ namespace Portfolio.ViewModels
     public class HomeViewModel
     {
         public IEnumerable<Menu> Menus { get; set; }
+        public IEnumerable<Article> Articles { get; set; }
     }
 }
