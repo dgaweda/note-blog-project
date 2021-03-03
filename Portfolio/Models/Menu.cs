@@ -8,7 +8,6 @@ namespace Portfolio.Models
 {
     public class Menu
     {
-        [Key]
         public int MenuId { get; set; }
         public string Reference { get; set; }
         public string Name { get; set; }

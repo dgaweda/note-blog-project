@@ -149,6 +149,30 @@
     <Compile Include="Migrations\202102282046098_NewModelsAndSeedDataUpdate.designer.cs">
       <DependentUpon>202102282046098_NewModelsAndSeedDataUpdate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202103011123107_ChangedSeedDataInitilizer.cs" />
+    <Compile Include="Migrations\202103011123107_ChangedSeedDataInitilizer.designer.cs">
+      <DependentUpon>202103011123107_ChangedSeedDataInitilizer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103011127143_ChangedSeedDataInitilizer1.cs" />
+    <Compile Include="Migrations\202103011127143_ChangedSeedDataInitilizer1.designer.cs">
+      <DependentUpon>202103011127143_ChangedSeedDataInitilizer1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103011136566_ChangedSeedDataInitilizer2.cs" />
+    <Compile Include="Migrations\202103011136566_ChangedSeedDataInitilizer2.designer.cs">
+      <DependentUpon>202103011136566_ChangedSeedDataInitilizer2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103011158206_ChangedSeedDataInitilizer3.cs" />
+    <Compile Include="Migrations\202103011158206_ChangedSeedDataInitilizer3.designer.cs">
+      <DependentUpon>202103011158206_ChangedSeedDataInitilizer3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103011159412_ChangedSeedDataInitilizer4.cs" />
+    <Compile Include="Migrations\202103011159412_ChangedSeedDataInitilizer4.designer.cs">
+      <DependentUpon>202103011159412_ChangedSeedDataInitilizer4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103011202443_ChangedSeedDataInitilizer5.cs" />
+    <Compile Include="Migrations\202103011202443_ChangedSeedDataInitilizer5.designer.cs">
+      <DependentUpon>202103011202443_ChangedSeedDataInitilizer5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Article.cs" />
     <Compile Include="Models\Education.cs" />
@@ -331,6 +355,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202102282046098_NewModelsAndSeedDataUpdate.resx">
       <DependentUpon>202102282046098_NewModelsAndSeedDataUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103011123107_ChangedSeedDataInitilizer.resx">
+      <DependentUpon>202103011123107_ChangedSeedDataInitilizer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103011127143_ChangedSeedDataInitilizer1.resx">
+      <DependentUpon>202103011127143_ChangedSeedDataInitilizer1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103011136566_ChangedSeedDataInitilizer2.resx">
+      <DependentUpon>202103011136566_ChangedSeedDataInitilizer2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103011158206_ChangedSeedDataInitilizer3.resx">
+      <DependentUpon>202103011158206_ChangedSeedDataInitilizer3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103011159412_ChangedSeedDataInitilizer4.resx">
+      <DependentUpon>202103011159412_ChangedSeedDataInitilizer4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103011202443_ChangedSeedDataInitilizer5.resx">
+      <DependentUpon>202103011202443_ChangedSeedDataInitilizer5.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
