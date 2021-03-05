@@ -35,8 +35,6 @@ namespace Portfolio.DAL
             };
             Articles.ForEach(article => context.Articles.AddOrUpdate(article));
             context.SaveChanges();
-
-
         }
     }
 }

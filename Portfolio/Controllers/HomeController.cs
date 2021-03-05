@@ -1,6 +1,7 @@
 ﻿
 using Portfolio.DAL;
 using Portfolio.Models;
+using Portfolio.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity.Migrations;
@@ -16,7 +17,15 @@ namespace Portfolio.Controllers
         
         public ActionResult Index()
         {
-            return View();
+            var menuPositions = db.Menus.ToList();
+            var articles = db.Articles.ToList();
+
+            var ViewModelMenuPositions = new HomeViewModel()
+            {
+                Menus = menuPositions,
+                Articles = articles
+            };
+            return View(ViewModelMenuPositions);
         }
     }
 }
