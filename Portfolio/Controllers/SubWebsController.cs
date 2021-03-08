@@ -15,9 +15,18 @@ namespace Portfolio.Controllers
         // GET: SubWebs
         public ActionResult SlightEdge()
         {
+            return View(Menu(db));
+        }
+
+        public ActionResult AboutMe()
+        {
+            return View(Menu(db));
+        }
+        public HomeViewModel Menu(PortfolioContext db)
+        {
             var menuPositions = db.Menus.ToList();
             var VM = new HomeViewModel() { Menus = menuPositions };
-            return View(VM);
+            return VM;
         }
     }
 }
