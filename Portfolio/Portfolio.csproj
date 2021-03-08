@@ -135,7 +135,6 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="DAL\Data.cs" />
     <Compile Include="DAL\DataBaseSeedInit.cs" />
     <Compile Include="DAL\PortfolioContext.cs" />
     <Compile Include="Global.asax.cs">
@@ -173,8 +172,11 @@
     <Compile Include="Migrations\202103011202443_ChangedSeedDataInitilizer5.designer.cs">
       <DependentUpon>202103011202443_ChangedSeedDataInitilizer5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202103081908436_DeletedArticlesModel.cs" />
+    <Compile Include="Migrations\202103081908436_DeletedArticlesModel.designer.cs">
+      <DependentUpon>202103081908436_DeletedArticlesModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\Article.cs" />
     <Compile Include="Models\Education.cs" />
     <Compile Include="Models\Hobby.cs" />
     <Compile Include="Models\Menu.cs" />
@@ -307,8 +309,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -373,6 +373,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202103011202443_ChangedSeedDataInitilizer5.resx">
       <DependentUpon>202103011202443_ChangedSeedDataInitilizer5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103081908436_DeletedArticlesModel.resx">
+      <DependentUpon>202103081908436_DeletedArticlesModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

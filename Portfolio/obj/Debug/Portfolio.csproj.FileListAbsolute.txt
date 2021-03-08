@@ -85,10 +85,11 @@ C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.pdb
 C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.Migrations.InitialCreate.resources
 C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.csproj.GenerateResource.cache
 C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.Migrations.NewModelsAndSeedDataUpdate.resources
-C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.csprojAssemblyReference.cache
 C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.Migrations.ChangedSeedDataInitilizer.resources
 C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.Migrations.ChangedSeedDataInitilizer1.resources
 C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.Migrations.ChangedSeedDataInitilizer2.resources
 C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.Migrations.ChangedSeedDataInitilizer3.resources
 C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.Migrations.ChangedSeedDataInitilizer4.resources
 C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.Migrations.ChangedSeedDataInitilizer5.resources
+C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.csprojAssemblyReference.cache
+C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.Migrations.DeletedArticlesModel.resources

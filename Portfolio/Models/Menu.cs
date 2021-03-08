@@ -12,7 +12,5 @@ namespace Portfolio.Models
         public string Reference { get; set; }
         public string Name { get; set; }
         public string Blank { get; set; }
-
-        public virtual ICollection<Article> Articles { get; set; }
     }
 }

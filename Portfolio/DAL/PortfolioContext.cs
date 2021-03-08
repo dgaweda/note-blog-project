@@ -13,8 +13,6 @@ namespace Portfolio.DAL
         {
 
         }
-
-        public DbSet<Article> Articles { get; set; }
         public DbSet<Education> Educations { get; set; }
         public DbSet<Hobby> Hobbies { get; set; }
         public DbSet<Menu> Menus { get; set; }

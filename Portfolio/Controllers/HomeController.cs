@@ -18,12 +18,10 @@ namespace Portfolio.Controllers
         public ActionResult Index()
         {
             var menuPositions = db.Menus.ToList();
-            var articles = db.Articles.ToList();
 
             var ViewModelMenuPositions = new HomeViewModel()
             {
-                Menus = menuPositions,
-                Articles = articles
+                Menus = menuPositions
             };
             return View(ViewModelMenuPositions);
         }

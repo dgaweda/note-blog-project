@@ -14,7 +14,6 @@ namespace Portfolio.DAL
     {
         public static void SeedData(PortfolioContext context)
         {
-            var data = new Data().Content();
 
             var Menu = new List<Menu>
             {
@@ -25,15 +24,6 @@ namespace Portfolio.DAL
                 new Menu() { Name = "NOTES", Reference = "link", Blank = null }
             };
             Menu.ForEach(menu => context.Menus.AddOrUpdate(menu));
-            context.SaveChanges();
-
-            var Articles = new List<Article>
-            {
-                new Article() { Name =  "What is this?", Content = data[0], MenuId=1 },
-                new Article() { Name = "MyApp", Content = data[1], MenuId=1 },
-                new Article() { Name = "Small step into greatness", Content = data[2], MenuId=1 }
-            };
-            Articles.ForEach(article => context.Articles.AddOrUpdate(article));
             context.SaveChanges();
         }
     }
