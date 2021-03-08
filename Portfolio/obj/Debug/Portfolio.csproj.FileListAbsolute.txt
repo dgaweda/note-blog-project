@@ -93,3 +93,6 @@ C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.Migrations.C
 C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.Migrations.ChangedSeedDataInitilizer5.resources
 C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.csprojAssemblyReference.cache
 C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.Migrations.DeletedArticlesModel.resources
+C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.Migrations.RepairedSeedData.resources
+C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.Migrations.RepairedSeedData1.resources
+C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.Migrations.RepairedSeedData2.resources

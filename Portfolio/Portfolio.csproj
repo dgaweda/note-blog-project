@@ -135,6 +135,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\SubWebsController.cs" />
     <Compile Include="DAL\DataBaseSeedInit.cs" />
     <Compile Include="DAL\PortfolioContext.cs" />
     <Compile Include="Global.asax.cs">
@@ -175,6 +176,18 @@
     <Compile Include="Migrations\202103081908436_DeletedArticlesModel.cs" />
     <Compile Include="Migrations\202103081908436_DeletedArticlesModel.designer.cs">
       <DependentUpon>202103081908436_DeletedArticlesModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103081919226_RepairedSeedData.cs" />
+    <Compile Include="Migrations\202103081919226_RepairedSeedData.designer.cs">
+      <DependentUpon>202103081919226_RepairedSeedData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103081921048_RepairedSeedData1.cs" />
+    <Compile Include="Migrations\202103081921048_RepairedSeedData1.designer.cs">
+      <DependentUpon>202103081921048_RepairedSeedData1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103081925025_RepairedSeedData2.cs" />
+    <Compile Include="Migrations\202103081925025_RepairedSeedData2.designer.cs">
+      <DependentUpon>202103081925025_RepairedSeedData2.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Education.cs" />
@@ -342,6 +355,8 @@
     <Content Include="Scripts\bootstrap.js.map" />
     <Content Include="Scripts\bootstrap.bundle.min.js.map" />
     <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Views\Home\_SliderPartial.cshtml" />
+    <Content Include="Views\SubWebs\SlightEdge.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\index.d.ts" />
@@ -376,6 +391,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202103081908436_DeletedArticlesModel.resx">
       <DependentUpon>202103081908436_DeletedArticlesModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103081919226_RepairedSeedData.resx">
+      <DependentUpon>202103081919226_RepairedSeedData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103081921048_RepairedSeedData1.resx">
+      <DependentUpon>202103081921048_RepairedSeedData1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103081925025_RepairedSeedData2.resx">
+      <DependentUpon>202103081925025_RepairedSeedData2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
