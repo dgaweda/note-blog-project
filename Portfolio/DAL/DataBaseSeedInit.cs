@@ -17,11 +17,11 @@ namespace Portfolio.DAL
 
             var Menu = new List<Menu>
             {
-                new Menu() { MenuId = 1, Name = "MAIN", Reference = "link", Blank = null },
-                new Menu() { MenuId = 2, Name = "GITHUB", Reference = "link", Blank = "_blank" },
-                new Menu() { MenuId = 3, Name = "SLIGHT EDGE", Reference = "link", Blank = null },
-                new Menu() { MenuId = 4, Name = "ABOUT ME", Reference = "link", Blank = null },
-                new Menu() { MenuId = 5, Name = "NOTES", Reference = "link", Blank = null }
+                new Menu() { MenuId = 1, Name = "MAIN", ControllerAction = "Index", ControllerName = "Home", Blank = null },
+                new Menu() { MenuId = 2, Name = "GITHUB", Reference = "https://github.com/dgaweda", Blank = "_blank" },
+                new Menu() { MenuId = 3, Name = "SLIGHT EDGE", ControllerAction = "SlightEdge", ControllerName = "SubWebs", Blank = null },
+                new Menu() { MenuId = 4, Name = "ABOUT ME", ControllerAction = "AboutMe", ControllerName = "SubWebs", Blank = null },
+                new Menu() { MenuId = 5, Name = "NOTES", ControllerAction = "Index", ControllerName = "Home", Blank = null }
             };
             Menu.ForEach(menu => context.Menus.AddOrUpdate(menu));
             context.SaveChanges();

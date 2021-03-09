@@ -189,6 +189,10 @@
     <Compile Include="Migrations\202103081925025_RepairedSeedData2.designer.cs">
       <DependentUpon>202103081925025_RepairedSeedData2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202103092026470_MenuModelChanges.cs" />
+    <Compile Include="Migrations\202103092026470_MenuModelChanges.designer.cs">
+      <DependentUpon>202103092026470_MenuModelChanges.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Education.cs" />
     <Compile Include="Models\Hobby.cs" />
@@ -326,6 +330,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Prototype\Styles\" />
+    <Folder Include="Views\NewFolder1\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.min.css.map" />
@@ -357,6 +362,7 @@
     <Content Include="Scripts\bootstrap.bundle.js.map" />
     <Content Include="Views\Home\_SliderPartial.cshtml" />
     <Content Include="Views\SubWebs\SlightEdge.cshtml" />
+    <Content Include="Views\SubWebs\AboutMe.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\index.d.ts" />
@@ -400,6 +406,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202103081925025_RepairedSeedData2.resx">
       <DependentUpon>202103081925025_RepairedSeedData2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103092026470_MenuModelChanges.resx">
+      <DependentUpon>202103092026470_MenuModelChanges.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

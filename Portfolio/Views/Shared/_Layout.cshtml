@@ -17,9 +17,18 @@
         <nav class="menu-nav">
             @foreach (var position in Model.Menus)
             {
-            <a href="@position.Reference" target="@position.Blank">
-                    @position.Name      
-            </a>
+                if (String.IsNullOrEmpty(position.Reference) == true)
+                {
+                    <a href="@Url.Action(position.ControllerAction, position.ControllerName)" target="@position.Blank">
+                        @position.Name
+                    </a>
+                }
+                else
+                {
+                    <a href="@position.Reference" target="@position.Blank">
+                        @position.Name
+                    </a>
+                }
             }
         </nav>
     </header>
