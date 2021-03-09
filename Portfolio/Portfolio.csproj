@@ -135,11 +135,65 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="DAL\Model1.cs" />
+    <Compile Include="Controllers\SubWebsController.cs" />
+    <Compile Include="DAL\DataBaseSeedInit.cs" />
+    <Compile Include="DAL\PortfolioContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Article.cs" />
+    <Compile Include="Migrations\202102281824144_InitialCreate.cs" />
+    <Compile Include="Migrations\202102281824144_InitialCreate.designer.cs">
+      <DependentUpon>202102281824144_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202102282046098_NewModelsAndSeedDataUpdate.cs" />
+    <Compile Include="Migrations\202102282046098_NewModelsAndSeedDataUpdate.designer.cs">
+      <DependentUpon>202102282046098_NewModelsAndSeedDataUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103011123107_ChangedSeedDataInitilizer.cs" />
+    <Compile Include="Migrations\202103011123107_ChangedSeedDataInitilizer.designer.cs">
+      <DependentUpon>202103011123107_ChangedSeedDataInitilizer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103011127143_ChangedSeedDataInitilizer1.cs" />
+    <Compile Include="Migrations\202103011127143_ChangedSeedDataInitilizer1.designer.cs">
+      <DependentUpon>202103011127143_ChangedSeedDataInitilizer1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103011136566_ChangedSeedDataInitilizer2.cs" />
+    <Compile Include="Migrations\202103011136566_ChangedSeedDataInitilizer2.designer.cs">
+      <DependentUpon>202103011136566_ChangedSeedDataInitilizer2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103011158206_ChangedSeedDataInitilizer3.cs" />
+    <Compile Include="Migrations\202103011158206_ChangedSeedDataInitilizer3.designer.cs">
+      <DependentUpon>202103011158206_ChangedSeedDataInitilizer3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103011159412_ChangedSeedDataInitilizer4.cs" />
+    <Compile Include="Migrations\202103011159412_ChangedSeedDataInitilizer4.designer.cs">
+      <DependentUpon>202103011159412_ChangedSeedDataInitilizer4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103011202443_ChangedSeedDataInitilizer5.cs" />
+    <Compile Include="Migrations\202103011202443_ChangedSeedDataInitilizer5.designer.cs">
+      <DependentUpon>202103011202443_ChangedSeedDataInitilizer5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103081908436_DeletedArticlesModel.cs" />
+    <Compile Include="Migrations\202103081908436_DeletedArticlesModel.designer.cs">
+      <DependentUpon>202103081908436_DeletedArticlesModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103081919226_RepairedSeedData.cs" />
+    <Compile Include="Migrations\202103081919226_RepairedSeedData.designer.cs">
+      <DependentUpon>202103081919226_RepairedSeedData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103081921048_RepairedSeedData1.cs" />
+    <Compile Include="Migrations\202103081921048_RepairedSeedData1.designer.cs">
+      <DependentUpon>202103081921048_RepairedSeedData1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103081925025_RepairedSeedData2.cs" />
+    <Compile Include="Migrations\202103081925025_RepairedSeedData2.designer.cs">
+      <DependentUpon>202103081925025_RepairedSeedData2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103092026470_MenuModelChanges.cs" />
+    <Compile Include="Migrations\202103092026470_MenuModelChanges.designer.cs">
+      <DependentUpon>202103092026470_MenuModelChanges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Education.cs" />
     <Compile Include="Models\Hobby.cs" />
     <Compile Include="Models\Menu.cs" />
@@ -272,12 +326,11 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Prototype\Styles\" />
+    <Folder Include="Views\NewFolder1\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.min.css.map" />
@@ -307,12 +360,56 @@
     <Content Include="Scripts\bootstrap.js.map" />
     <Content Include="Scripts\bootstrap.bundle.min.js.map" />
     <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Views\Home\_SliderPartial.cshtml" />
+    <Content Include="Views\SubWebs\SlightEdge.cshtml" />
+    <Content Include="Views\SubWebs\AboutMe.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\index.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202102281824144_InitialCreate.resx">
+      <DependentUpon>202102281824144_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102282046098_NewModelsAndSeedDataUpdate.resx">
+      <DependentUpon>202102282046098_NewModelsAndSeedDataUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103011123107_ChangedSeedDataInitilizer.resx">
+      <DependentUpon>202103011123107_ChangedSeedDataInitilizer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103011127143_ChangedSeedDataInitilizer1.resx">
+      <DependentUpon>202103011127143_ChangedSeedDataInitilizer1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103011136566_ChangedSeedDataInitilizer2.resx">
+      <DependentUpon>202103011136566_ChangedSeedDataInitilizer2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103011158206_ChangedSeedDataInitilizer3.resx">
+      <DependentUpon>202103011158206_ChangedSeedDataInitilizer3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103011159412_ChangedSeedDataInitilizer4.resx">
+      <DependentUpon>202103011159412_ChangedSeedDataInitilizer4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103011202443_ChangedSeedDataInitilizer5.resx">
+      <DependentUpon>202103011202443_ChangedSeedDataInitilizer5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103081908436_DeletedArticlesModel.resx">
+      <DependentUpon>202103081908436_DeletedArticlesModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103081919226_RepairedSeedData.resx">
+      <DependentUpon>202103081919226_RepairedSeedData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103081921048_RepairedSeedData1.resx">
+      <DependentUpon>202103081921048_RepairedSeedData1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103081925025_RepairedSeedData2.resx">
+      <DependentUpon>202103081925025_RepairedSeedData2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103092026470_MenuModelChanges.resx">
+      <DependentUpon>202103092026470_MenuModelChanges.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

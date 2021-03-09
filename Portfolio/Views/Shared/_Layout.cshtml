@@ -12,31 +12,24 @@
 <body>
     <header>
         <span class="name">
-            Hi! I'm <a href="link">Darek!</a>
+            Hi! I'm <a href="@Url.Action("Index", "Home")">Darek!</a>
         </span>
         <nav class="menu-nav">
-            @foreach (var menu in Model.Menus)
+            @foreach (var position in Model.Menus)
             {
-            <a href="Index.html">
-               @menu.Name
-            </a>
+                if (String.IsNullOrEmpty(position.Reference) == true)
+                {
+                    <a href="@Url.Action(position.ControllerAction, position.ControllerName)" target="@position.Blank">
+                        @position.Name
+                    </a>
+                }
+                else
+                {
+                    <a href="@position.Reference" target="@position.Blank">
+                        @position.Name
+                    </a>
+                }
             }
-
-            <a href="https://github.com/dgaweda" target="_blank">
-                GITHUB
-            </a>
-
-            <a href="slideEdge.html">
-                SLIGHT EDGE
-            </a>
-
-            <a href="aboutMe.html">
-                ABOUT ME
-            </a>
-
-            <a href="Notes.html">
-                NOTES
-            </a>
         </nav>
     </header>
 
