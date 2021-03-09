@@ -1,0 +1,267 @@
+﻿* {
+    margin: 0 auto;
+    font-family: Lato;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("Images/article_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    font-size: 25px;
+    color: white;
+}
+
+span {
+    padding: 15px 10px 50px 10px;
+    float: left;
+}
+    .Here {
+        padding:5px 10px 5px 10px;
+        border-top:2px solid white;
+        background-color:black;
+        color:white;
+        font-weight:bold;
+        margin-left:5px;
+    }
+
+a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+    a:active, a:hover {
+        color: lightslategray;
+    }
+
+.name {
+    position: relative;
+    font-size: 1.7vw;
+    z-index: 10;
+}
+
+    .name a:hover, a:active {
+        color: lightslategray;
+    }
+
+.menu, article {
+    width: 55%;
+}
+
+.menu {
+    font-weight: bold;
+    position: relative;
+}
+
+article {
+    background-color: white;
+}
+
+.menu-nav {
+    position: relative;
+    min-height: 80px;
+    font-size: 1.3vw;
+    right: 5%;
+}
+
+    .menu-nav a {
+        position: relative;
+        top: 20px;
+        padding: 5px 20px 5px 20px;
+        color: white;
+    }
+
+        .menu-nav a:hover, .menu-nav a:active {
+            color: cornflowerblue;
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+        }
+
+.slider {
+    max-width: 75%;
+    position: relative;
+    margin: auto;
+}
+
+.Me {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.left {
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 30%;
+}
+
+.right {
+    position: relative;
+    float: right;
+    width: 65%;
+}
+
+.SlideDisplay {
+    display: none;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3.0s;
+    animation-name: fade;
+    animation-duration: 3.0s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .6
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.content {
+    position: relative;
+    height: auto;
+    margin: 0 auto;
+    font-weight: bold;
+    padding: 20px 30px 0px 30px;
+    line-height: 1.6;
+    min-height: 85vh;
+}
+
+footer {
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.headers {
+    color: black;
+    font-size: 30px;
+}
+
+.text {
+    position: relative;
+    padding: 10px 10px 10px 10px;
+    font-size: 18px;
+}
+
+.refs {
+    font-size: 30px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+    .refs a {
+        margin-left: 5%;
+        padding: 10px 10px 10px 10px;
+        box-sizing: border-box;
+    }
+
+        .refs a:hover, .refs a:active {
+            border-top: 2px solid gray;
+            border-bottom: 2px solid gray;
+        }
+
+#gray {
+    color: dimgray;
+}
+
+/*ABOUT ME LINKS*/
+#noteMenuButtons {
+    font-size:25px;
+    margin:10px 10px 5px 5px;
+    float: none;
+    border-radius:20%;
+    padding: 15px 15px 15px 15px;
+}
+    #noteMenuButtons:hover, #noteMenuButtons:active {
+        border-top: 2px solid cornflowerblue;
+        border-bottom: 2px solid cornflowerblue;
+    }
+
+.note {
+    position: relative;
+    margin-top:10px;
+    width: 100%;
+    text-align: center;
+    float: left;
+    box-shadow: 0 0 1em cornflowerblue;
+    border:2px solid cornflowerblue;
+    border-radius:20px;
+    background-color:ghostwhite;
+}
+
+    .note p {
+        padding: 5px 5px 5px 5px;
+        position: relative;
+        margin: 5px 5px 5px 5px;
+        float: left;
+        min-height: 100%;
+        word-wrap: break-word;
+        overflow: auto;
+    }
+
+    .note #title {
+        margin-top:35px;
+        width:15%;
+        float:left;
+        max-height:100px;
+    }
+
+    .note #date {
+        font-size:20px;
+        font-weight:bold;
+        width: 20%;
+        float:right;
+        color:#45713b;
+    }
+
+    .note #textArea {
+        position: relative;
+        text-align: left;
+        width:60%;
+        height:100px;
+        border:2px solid gray;
+        border-radius:5px;
+    }
+
+    .note #edit, #delete {
+        margin: 10px 5px 5px 5px;
+        padding: 5px 5px 5px 5px;
+        float: right;
+        border-radius: 10%;
+        width:10%;
+    }
+        .note #edit:hover, #delete:hover, #edit:active, #delete:active {
+            background-color: whitesmoke;
+            border-left: 1px solid cornflowerblue;
+            border-right: 1px solid cornflowerblue;
+        }
