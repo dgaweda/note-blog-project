@@ -10,8 +10,8 @@ namespace Portfolio.Models
         public int EducationId { get; set; }
         public string Name { get; set; }
         public string Major { get; set; }
-        public DateTime From { get; set; }
-        public DateTime To { get; set; }
+        public string From { get; set; }
+        public string To { get; set; }
         public bool Present{ get; set; }
 
         public virtual Person Person { get; set; }

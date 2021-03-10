@@ -9,8 +9,6 @@ namespace Portfolio.Models
     {
         public int TechnologyId { get; set; }
         public string Name { get; set; }
-        public string FromWhen { get; set; }
-
         public virtual Person Person { get; set; }
     }
 }
