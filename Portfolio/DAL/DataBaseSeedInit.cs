@@ -25,23 +25,30 @@ namespace Portfolio.DAL
             };
             Menu.ForEach(menu => context.Menus.AddOrUpdate(menu));
             context.SaveChanges();
+            
             var Technologies = new List<Technology>()
             {
-                new Technology() { TechnologyId = 1, Name = "MVC Pattern - General" },
-                new Technology() { TechnologyId = 2, Name = "Entity Framework - Backend (Database)"},
-                new Technology() { TechnologyId = 3, Name = ".NET Framework - Backend"},
-                new Technology() { TechnologyId = 4, Name = "Razor - Frontend"},
-                new Technology() { TechnologyId = 5, Name = "MS SQL Server - Database Server"},
-                new Technology() { TechnologyId = 6, Name = "CSS + HTML5 - Frontend"},
-                new Technology() { TechnologyId = 7, Name = "NUnit - Testing"},
-                new Technology() { TechnologyId = 8, Name = "IdentityUser - For Logging"}
+                new Technology() { TechnologyId = 1, Name = "MVC Pattern", Purpose = (Purpose) 0 },
+                new Technology() { TechnologyId = 2, Name = "Entity Framework", Purpose = (Purpose) 1 },
+                new Technology() { TechnologyId = 3, Name = ".NET Framework", Purpose = (Purpose) 1},
+                new Technology() { TechnologyId = 4, Name = "Razor", Purpose = (Purpose)2},
+                new Technology() { TechnologyId = 5, Name = "MS SQL Server", Purpose = (Purpose) 3},
+                new Technology() { TechnologyId = 6, Name = "CSS + HTML5", Purpose = (Purpose) 2},
+                new Technology() { TechnologyId = 7, Name = "NUnit", Purpose = (Purpose) 5},
+                new Technology() { TechnologyId = 8, Name = "IdentityUser", Purpose = (Purpose) 4},
+                new Technology() { TechnologyId = 9, Name = "Swagger", Purpose = (Purpose) 5},
+                new Technology() { TechnologyId = 10, Name = "Postman", Purpose = (Purpose) 5}
             };
+            Technologies.ForEach(technology => context.Technologies.AddOrUpdate(technology));
+            context.SaveChanges();
 
             var SchoolList = new List<Education>()
-            { 
+            {
                 new Education() { EducationId = 1, Name = "University of Gdansk", Major = "Computer Science", From = "2017", To = "Present" },
                 new Education() { EducationId = 2, Name = "Technical college in Działdowo", Major = "IT Technician", From = "2013", To = "2017"}
             };
+            SchoolList.ForEach(school => context.Educations.AddOrUpdate(school));
+            context.SaveChanges();
 
             var HobbyList = new List<Hobby>()
             {
@@ -50,7 +57,23 @@ namespace Portfolio.DAL
                 new Hobby() { HobbyId = 3, Name = "Manual works with computer"},
                 new Hobby() { HobbyId = 4, Name = "And recently programming in C#"}
             };
+            HobbyList.ForEach(hobby => context.Hobbies.AddOrUpdate(hobby));
+            context.SaveChanges();
         }
-    }
+    } 
+
+    public enum Purpose
+    { 
+            General,
+            Backend,
+            Frontend,
+            Database,
+            Logging,
+            Testing
+    };
+
+    
+
 }
+
 
