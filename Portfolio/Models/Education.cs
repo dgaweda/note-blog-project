@@ -14,6 +14,6 @@ namespace Portfolio.Models
         public string To { get; set; }
         public bool Present{ get; set; }
 
-        public virtual Person Person { get; set; }
+        public virtual ICollection<EducationToPerson> EducationToPeople  { get; set; }
     }
 }

@@ -7,13 +7,13 @@ namespace Portfolio.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class DeletedArticlesModel : IMigrationMetadata
+    public sealed partial class EducationModelChanges : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(DeletedArticlesModel));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(EducationModelChanges));
         
         string IMigrationMetadata.Id
         {
-            get { return "202103081908436_DeletedArticlesModel"; }
+            get { return "202103122135572_EducationModelChanges"; }
         }
         
         string IMigrationMetadata.Source

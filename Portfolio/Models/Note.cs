@@ -12,7 +12,7 @@ namespace Portfolio.Models
         public string Objectives { get; set; }
         public DateTime Date { get; set; }
         public bool Hidden { get; set; }
-
+        public int PersonId { get; set; }
         public virtual Person Person { get; set; }
     }
 }

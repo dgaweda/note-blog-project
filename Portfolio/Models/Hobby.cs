@@ -9,8 +9,6 @@ namespace Portfolio.Models
     {
         public int HobbyId { get; set; }
         public string Name { get; set; }
-
-        public int  PersonId { get; set; }
-        public virtual Person Person { get; set; }
+        public virtual ICollection<HobbyToPerson> HobbyToPeople { get; set; }
     }
 }

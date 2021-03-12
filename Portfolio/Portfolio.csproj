@@ -141,61 +141,31 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202102281824144_InitialCreate.cs" />
-    <Compile Include="Migrations\202102281824144_InitialCreate.designer.cs">
-      <DependentUpon>202102281824144_InitialCreate.cs</DependentUpon>
+    <Compile Include="Migrations\202103122117554_HobbyRelationChange.cs" />
+    <Compile Include="Migrations\202103122117554_HobbyRelationChange.designer.cs">
+      <DependentUpon>202103122117554_HobbyRelationChange.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202102282046098_NewModelsAndSeedDataUpdate.cs" />
-    <Compile Include="Migrations\202102282046098_NewModelsAndSeedDataUpdate.designer.cs">
-      <DependentUpon>202102282046098_NewModelsAndSeedDataUpdate.cs</DependentUpon>
+    <Compile Include="Migrations\202103122119339_HobbyChanges.cs" />
+    <Compile Include="Migrations\202103122119339_HobbyChanges.designer.cs">
+      <DependentUpon>202103122119339_HobbyChanges.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202103011123107_ChangedSeedDataInitilizer.cs" />
-    <Compile Include="Migrations\202103011123107_ChangedSeedDataInitilizer.designer.cs">
-      <DependentUpon>202103011123107_ChangedSeedDataInitilizer.cs</DependentUpon>
+    <Compile Include="Migrations\202103122124261_HobbyChanges1.cs" />
+    <Compile Include="Migrations\202103122124261_HobbyChanges1.designer.cs">
+      <DependentUpon>202103122124261_HobbyChanges1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202103011127143_ChangedSeedDataInitilizer1.cs" />
-    <Compile Include="Migrations\202103011127143_ChangedSeedDataInitilizer1.designer.cs">
-      <DependentUpon>202103011127143_ChangedSeedDataInitilizer1.cs</DependentUpon>
+    <Compile Include="Migrations\202103122133136_RelationChanges.cs" />
+    <Compile Include="Migrations\202103122133136_RelationChanges.designer.cs">
+      <DependentUpon>202103122133136_RelationChanges.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202103011136566_ChangedSeedDataInitilizer2.cs" />
-    <Compile Include="Migrations\202103011136566_ChangedSeedDataInitilizer2.designer.cs">
-      <DependentUpon>202103011136566_ChangedSeedDataInitilizer2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202103011158206_ChangedSeedDataInitilizer3.cs" />
-    <Compile Include="Migrations\202103011158206_ChangedSeedDataInitilizer3.designer.cs">
-      <DependentUpon>202103011158206_ChangedSeedDataInitilizer3.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202103011159412_ChangedSeedDataInitilizer4.cs" />
-    <Compile Include="Migrations\202103011159412_ChangedSeedDataInitilizer4.designer.cs">
-      <DependentUpon>202103011159412_ChangedSeedDataInitilizer4.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202103011202443_ChangedSeedDataInitilizer5.cs" />
-    <Compile Include="Migrations\202103011202443_ChangedSeedDataInitilizer5.designer.cs">
-      <DependentUpon>202103011202443_ChangedSeedDataInitilizer5.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202103081908436_DeletedArticlesModel.cs" />
-    <Compile Include="Migrations\202103081908436_DeletedArticlesModel.designer.cs">
-      <DependentUpon>202103081908436_DeletedArticlesModel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202103081919226_RepairedSeedData.cs" />
-    <Compile Include="Migrations\202103081919226_RepairedSeedData.designer.cs">
-      <DependentUpon>202103081919226_RepairedSeedData.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202103081921048_RepairedSeedData1.cs" />
-    <Compile Include="Migrations\202103081921048_RepairedSeedData1.designer.cs">
-      <DependentUpon>202103081921048_RepairedSeedData1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202103081925025_RepairedSeedData2.cs" />
-    <Compile Include="Migrations\202103081925025_RepairedSeedData2.designer.cs">
-      <DependentUpon>202103081925025_RepairedSeedData2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202103092026470_MenuModelChanges.cs" />
-    <Compile Include="Migrations\202103092026470_MenuModelChanges.designer.cs">
-      <DependentUpon>202103092026470_MenuModelChanges.cs</DependentUpon>
+    <Compile Include="Migrations\202103122135572_EducationModelChanges.cs" />
+    <Compile Include="Migrations\202103122135572_EducationModelChanges.designer.cs">
+      <DependentUpon>202103122135572_EducationModelChanges.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Education.cs" />
+    <Compile Include="Models\EducationToPerson.cs" />
     <Compile Include="Models\Hobby.cs" />
+    <Compile Include="Models\HobbyToPerson.cs" />
     <Compile Include="Models\Menu.cs" />
     <Compile Include="Models\Note.cs" />
     <Compile Include="Models\Person.cs" />
@@ -370,44 +340,20 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202102281824144_InitialCreate.resx">
-      <DependentUpon>202102281824144_InitialCreate.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202103122117554_HobbyRelationChange.resx">
+      <DependentUpon>202103122117554_HobbyRelationChange.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202102282046098_NewModelsAndSeedDataUpdate.resx">
-      <DependentUpon>202102282046098_NewModelsAndSeedDataUpdate.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202103122119339_HobbyChanges.resx">
+      <DependentUpon>202103122119339_HobbyChanges.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202103011123107_ChangedSeedDataInitilizer.resx">
-      <DependentUpon>202103011123107_ChangedSeedDataInitilizer.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202103122124261_HobbyChanges1.resx">
+      <DependentUpon>202103122124261_HobbyChanges1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202103011127143_ChangedSeedDataInitilizer1.resx">
-      <DependentUpon>202103011127143_ChangedSeedDataInitilizer1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202103122133136_RelationChanges.resx">
+      <DependentUpon>202103122133136_RelationChanges.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202103011136566_ChangedSeedDataInitilizer2.resx">
-      <DependentUpon>202103011136566_ChangedSeedDataInitilizer2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202103011158206_ChangedSeedDataInitilizer3.resx">
-      <DependentUpon>202103011158206_ChangedSeedDataInitilizer3.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202103011159412_ChangedSeedDataInitilizer4.resx">
-      <DependentUpon>202103011159412_ChangedSeedDataInitilizer4.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202103011202443_ChangedSeedDataInitilizer5.resx">
-      <DependentUpon>202103011202443_ChangedSeedDataInitilizer5.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202103081908436_DeletedArticlesModel.resx">
-      <DependentUpon>202103081908436_DeletedArticlesModel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202103081919226_RepairedSeedData.resx">
-      <DependentUpon>202103081919226_RepairedSeedData.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202103081921048_RepairedSeedData1.resx">
-      <DependentUpon>202103081921048_RepairedSeedData1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202103081925025_RepairedSeedData2.resx">
-      <DependentUpon>202103081925025_RepairedSeedData2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202103092026470_MenuModelChanges.resx">
-      <DependentUpon>202103092026470_MenuModelChanges.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202103122135572_EducationModelChanges.resx">
+      <DependentUpon>202103122135572_EducationModelChanges.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

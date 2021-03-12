@@ -7,13 +7,13 @@ namespace Portfolio.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class RepairedSeedData2 : IMigrationMetadata
+    public sealed partial class RelationChanges : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(RepairedSeedData2));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(RelationChanges));
         
         string IMigrationMetadata.Id
         {
-            get { return "202103081925025_RepairedSeedData2"; }
+            get { return "202103122133136_RelationChanges"; }
         }
         
         string IMigrationMetadata.Source

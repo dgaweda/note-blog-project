@@ -3,7 +3,7 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class RepairedSeedData : DbMigration
+    public partial class HobbyChanges : DbMigration
     {
         public override void Up()
         {
