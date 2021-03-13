@@ -28,7 +28,7 @@ namespace Portfolio.DAL
             var General = "Since couple of months i'm interested in some kind of philosophy of human brain and common problems which everyone of us met like procrastination. Every day i try to fight those problems connecting it with my everyday work. Even now i'm making 60 min work session with this project... <br /> (btw.it's my 46th minute)";
             var People = new List<Person>
             {
-                new Person() {PersonId = 1, Name = "Darek", Lastname = "Gawęda", GeneralInfo = General, Logged = true}
+                new Person() {PersonId = 1, Name = "Darek", Lastname = "Gawęda", GeneralInfo = General, Logged = true, Picture = "Me.jpg"}
             };
             People.ForEach(person => context.People.AddOrUpdate(person));
             context.SaveChanges();

@@ -11,6 +11,7 @@ namespace Portfolio.Models
         public string Name { get; set; }
         public string Lastname { get; set; }
         public string GeneralInfo { get; set; }
+        public string Picture { get; set; }
         public bool Logged { get; set; }
 
         public virtual ICollection<EducationToPerson> EducationToPeople { get; set; }

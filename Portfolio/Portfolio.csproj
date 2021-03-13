@@ -161,6 +161,10 @@
     <Compile Include="Migrations\202103122135572_EducationModelChanges.designer.cs">
       <DependentUpon>202103122135572_EducationModelChanges.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202103131310081_AddedNewPropertyToPerson_PictureString.cs" />
+    <Compile Include="Migrations\202103131310081_AddedNewPropertyToPerson_PictureString.designer.cs">
+      <DependentUpon>202103131310081_AddedNewPropertyToPerson_PictureString.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Education.cs" />
     <Compile Include="Models\EducationToPerson.cs" />
@@ -171,6 +175,7 @@
     <Compile Include="Models\Person.cs" />
     <Compile Include="Models\Technology.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\AboutMeViewModel.cs" />
     <Compile Include="ViewModels\HomeViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -354,6 +359,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202103122135572_EducationModelChanges.resx">
       <DependentUpon>202103122135572_EducationModelChanges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103131310081_AddedNewPropertyToPerson_PictureString.resx">
+      <DependentUpon>202103131310081_AddedNewPropertyToPerson_PictureString.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

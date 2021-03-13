@@ -89,3 +89,4 @@ C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.Migrations.H
 C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.Migrations.RelationChanges.resources
 C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.Migrations.EducationModelChanges.resources
 C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.csprojAssemblyReference.cache
+C:\Users\Darek\source\repos\Portfolio\Portfolio\obj\Debug\Portfolio.Migrations.AddedNewPropertyToPerson_PictureString.resources

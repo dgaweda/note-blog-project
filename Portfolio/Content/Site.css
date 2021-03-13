@@ -25,14 +25,15 @@ span {
     padding: 15px 10px 50px 10px;
     float: left;
 }
-    .Here {
-        padding:5px 10px 5px 10px;
-        border-top:2px solid white;
-        background-color:black;
-        color:white;
-        font-weight:bold;
-        margin-left:5px;
-    }
+
+.Here {
+    padding: 5px 10px 5px 10px;
+    border-top: 2px solid white;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+}
 
 a {
     text-decoration: none;
@@ -164,8 +165,25 @@ footer {
 
 .headers {
     color: black;
-    font-size: 30px;
+    font-size: 28px;
 }
+
+    .headers ul, li {
+        margin-top: 5px;
+    }
+
+    .tech {
+        font-size: 18px;
+        text-align: center;
+        display: inline-block;
+        margin-top: 5px;
+        margin-left: 5px;
+        padding: 5px 7px 5px 7px;
+        border: 2px solid cornflowerblue;
+        background-color: cornflowerblue;
+        border-radius: 25px;
+        color: white;
+    }
 
 .text {
     position: relative;
@@ -174,13 +192,14 @@ footer {
 }
 
 .refs {
-    font-size: 30px;
+    float: left;
+    margin-left: 5%;
+    font-size: 25px;
     padding: 10px 10px 10px 10px;
     text-align: center;
 }
 
     .refs a {
-        margin-left: 5%;
         padding: 10px 10px 10px 10px;
         box-sizing: border-box;
     }
@@ -196,12 +215,13 @@ footer {
 
 /*ABOUT ME LINKS*/
 #noteMenuButtons {
-    font-size:25px;
-    margin:10px 10px 5px 5px;
+    font-size: 25px;
+    margin: 10px 10px 5px 5px;
     float: none;
-    border-radius:20%;
+    border-radius: 20%;
     padding: 15px 15px 15px 15px;
 }
+
     #noteMenuButtons:hover, #noteMenuButtons:active {
         border-top: 2px solid cornflowerblue;
         border-bottom: 2px solid cornflowerblue;
@@ -209,14 +229,14 @@ footer {
 
 .note {
     position: relative;
-    margin-top:10px;
+    margin-top: 10px;
     width: 100%;
     text-align: center;
     float: left;
     box-shadow: 0 0 1em cornflowerblue;
-    border:2px solid cornflowerblue;
-    border-radius:20px;
-    background-color:ghostwhite;
+    border: 2px solid cornflowerblue;
+    border-radius: 20px;
+    background-color: ghostwhite;
 }
 
     .note p {
@@ -230,27 +250,27 @@ footer {
     }
 
     .note #title {
-        margin-top:35px;
-        width:15%;
-        float:left;
-        max-height:100px;
+        margin-top: 35px;
+        width: 15%;
+        float: left;
+        max-height: 100px;
     }
 
     .note #date {
-        font-size:20px;
-        font-weight:bold;
+        font-size: 20px;
+        font-weight: bold;
         width: 20%;
-        float:right;
-        color:#45713b;
+        float: right;
+        color: #45713b;
     }
 
     .note #textArea {
         position: relative;
         text-align: left;
-        width:60%;
-        height:100px;
-        border:2px solid gray;
-        border-radius:5px;
+        width: 60%;
+        height: 100px;
+        border: 2px solid gray;
+        border-radius: 5px;
     }
 
     .note #edit, #delete {
@@ -258,8 +278,9 @@ footer {
         padding: 5px 5px 5px 5px;
         float: right;
         border-radius: 10%;
-        width:10%;
+        width: 10%;
     }
+
         .note #edit:hover, #delete:hover, #edit:active, #delete:active {
             background-color: whitesmoke;
             border-left: 1px solid cornflowerblue;
