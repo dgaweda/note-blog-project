@@ -12,45 +12,54 @@
 
         <div class="right">
             <div id="gray">
+                @foreach (var person in Model.People)
+                {
+                    <h5 class="headers">Personal</h5>
+                    <hr />
+                    <ul>
+                        <li>
+                            @person.Name @person.Lastname
+                        </li>
+                        @foreach (var school in Model.Education)
+                        {
+                            <li>
+                                @school.Name
+                            </li>
+                        }
+                    </ul>
 
-                <h5 class="headers">Personal</h5>
-                <hr />
-                <ul>
-                    <li>
-                        Darek Gawęda
-                    </li>
-                    <li>
-                        Student of University of Gdansk - Computer Science - from 2017 to now
-                    </li>
-                </ul>
+                    <h2 class="headers">Hobby</h2>
+                    <hr />
+                    <ul>
+                        @foreach (var hobby in Model.Hobbies)
+                        {
+                            <li>
+                                @hobby.Name
+                            </li>
+                        }
+                        <li>
+                            Volleyball
+                        </li>
+                        <li>
+                            Manual works with computer, especially mine :)
+                        </li>
+                    </ul>
 
-                <h2 class="headers">Hobby</h2>
-                <hr />
-                <ul>
-                    <li>
-                        Computer/board games - particularly the newest titles
-                    </li>
-                    <li>
-                        Volleyball
-                    </li>
-                    <li>
-                        Manual works with computer, especially mine :)
-                    </li>
-                </ul>
+                    <h2 class="headers">General</h2>
+                    <hr />
+                    <p class="text">
+                        @person.GeneralInfo
+                    </p>
 
-                <h2 class="headers">General</h2>
-                <hr />
-                <p class="text">
-                    Since couple of months i'm interested in some kind of philosophy of human brain and common problems which everyone of us met
-                    like procrastination. Every day i try to fight those problems connecting it with my everyday work. Even now i'm making 60 min work session with this project... <br />
-                    (btw. it's my 46th minute)
-                </p>
-
-                <h2 class="headers">Technologies</h2>
-                <hr />
-                <span class="tech">
-                    Technology
-                </span>
+                    <h2 class="headers">Technologies</h2>
+                    <hr />
+                    @foreach (var tech in Model.PersonTechnologies)
+                    {
+                        <span class="tech">
+                            @tech.Name
+                        </span>
+                    }
+                }
             </div>
         </div>
     </section>
