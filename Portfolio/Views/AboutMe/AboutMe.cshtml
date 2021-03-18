@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "AboutMe";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content">
+    <section class="Me">
+
+        @Html.Partial("_userImage")
+
+        <div class="right">
+            <div id="gray">
+                @Html.Partial("_userInformations")
+            </div>
+        </div>
+    </section>
+
+    <div id="gray">
+        @Html.Partial("_refs")
+    </div>
+</div>
+

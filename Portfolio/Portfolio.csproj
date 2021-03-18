@@ -135,7 +135,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\SubWebsController.cs" />
+    <Compile Include="Controllers\AboutMeController.cs" />
     <Compile Include="DAL\DataBaseSeedInit.cs" />
     <Compile Include="DAL\PortfolioContext.cs" />
     <Compile Include="Global.asax.cs">
@@ -305,6 +305,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Prototype\Styles\" />
+    <Folder Include="Views\SubWebs\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.min.css.map" />
@@ -335,8 +336,11 @@
     <Content Include="Scripts\bootstrap.bundle.min.js.map" />
     <Content Include="Scripts\bootstrap.bundle.js.map" />
     <Content Include="Views\Home\_SliderPartial.cshtml" />
-    <Content Include="Views\SubWebs\SlightEdge.cshtml" />
-    <Content Include="Views\SubWebs\AboutMe.cshtml" />
+    <Content Include="Views\SlightEdge\SlightEdge.cshtml" />
+    <Content Include="Views\AboutMe\AboutMe.cshtml" />
+    <Content Include="Views\AboutMe\_refs.cshtml" />
+    <Content Include="Views\AboutMe\_userImage.cshtml" />
+    <Content Include="Views\AboutMe\_userInformations.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\index.d.ts" />
