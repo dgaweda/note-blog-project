@@ -96,7 +96,7 @@ article {
 .Me {
     position: relative;
     width: 100%;
-    height: 400px;
+    height:900px;
 }
 
 .left {
@@ -110,6 +110,7 @@ article {
     position: relative;
     float: right;
     width: 65%;
+    height:100%;
 }
 
 .SlideDisplay {
@@ -192,7 +193,6 @@ footer {
 }
 
 .refs {
-    float: left;
     margin-left: 5%;
     font-size: 25px;
     padding: 10px 10px 10px 10px;

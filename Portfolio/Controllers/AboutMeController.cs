@@ -13,7 +13,7 @@ namespace Portfolio.Controllers
     {
         public PortfolioContext db = new PortfolioContext();
 
-        public ActionResult Index()
+        public ActionResult AboutMe()
         {
             return View(AboutMeVM(db));
         }

@@ -4,17 +4,21 @@
 <hr />
 <ul>
     <li>
-        @Model.People.Name
+        <h3>@Model.People.Name @Model.People.Lastname</h3>
     </li>
+</ul>
 
+<h5 class="headers">Education</h5>
+<hr />
+<ul>
     @foreach (var school in Model.Education)
     {
         <li>
-            @school.Name
+            <h3>@school.Name - @school.Major</h3> <section style="color:darkslategray">From - @school.From - To @school.To</section>
         </li>
     }
-
 </ul>
+
 
 <h2 class="headers">Hobby</h2>
 <hr />
@@ -24,7 +28,7 @@
         <li>
             @hobby.Name
         </li>
-    }>
+    }
 </ul>
 
 <h2 class="headers">General</h2>

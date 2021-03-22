@@ -6,8 +6,12 @@
 
 <div class="content">
     <section class="Me">
+        <div class="left">
+            @Html.Partial("_userImage")
 
-        @Html.Partial("_userImage")
+            @Html.Partial("_refs")
+        </div>
+
 
         <div class="right">
             <div id="gray">
@@ -16,8 +20,6 @@
         </div>
     </section>
 
-    <div id="gray">
-        @Html.Partial("_refs")
-    </div>
+
 </div>
 

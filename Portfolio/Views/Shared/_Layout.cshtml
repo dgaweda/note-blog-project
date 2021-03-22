@@ -1,6 +1,4 @@
-﻿@model Portfolio.ViewModels.HomeViewModel
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -14,23 +12,8 @@
         <span class="name">
             Hi! I'm <a href="@Url.Action("Index", "Home")">Darek!</a>
         </span>
-        <nav class="menu-nav">
-            @foreach (var position in Model.Menus)
-            {
-                if (String.IsNullOrEmpty(position.Reference) == true)
-                {
-                    <a href="@Url.Action(position.ControllerAction, position.ControllerName)" target="@position.Blank">
-                        @position.Name
-                    </a>
-                }
-                else
-                {
-                    <a href="@position.Reference" target="@position.Blank">
-                        @position.Name
-                    </a>
-                }
-            }
-        </nav>
+        
+        @Html.Action("Menu", "Home")
     </header>
 
     <article>
