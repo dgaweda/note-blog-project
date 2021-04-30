@@ -19,7 +19,8 @@ namespace Portfolio.DAL
         public DbSet<Note> Notes { get; set; }
         public DbSet<Person> People { get; set; }
         public DbSet<Technology> Technologies { get; set; }
-
+        public DbSet<EducationToPerson> EducationToPeople { get; set; }
+        public DbSet<HobbyToPerson> HobbyToPeople { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

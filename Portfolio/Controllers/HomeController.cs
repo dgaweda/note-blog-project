@@ -17,13 +17,14 @@ namespace Portfolio.Controllers
         
         public ActionResult Index()
         {
-            var menuPositions = db.Menus.ToList();
+            return View();
+        }
 
-            var ViewModelMenuPositions = new HomeViewModel()
-            {
-                Menus = menuPositions
-            };
-            return View(ViewModelMenuPositions);
+        public ActionResult Menu()
+        {
+            var menu = db.Menus.ToList();
+
+            return PartialView("_Menu", menu);
         }
 
 
