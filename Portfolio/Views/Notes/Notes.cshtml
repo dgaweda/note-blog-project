@@ -1,0 +1,18 @@
+﻿@model Portfolio.ViewModels.NoteViewModel
+
+@{
+    ViewBag.Title = "Notes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content">
+    <br />
+    <hr />
+    @Html.Partial("_addNote", Model)
+
+</div>
+
+@section Scripts{
+    <script src="@Url.Content("~/Content/Script.js")"></script>
+}
+

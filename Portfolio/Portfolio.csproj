@@ -136,6 +136,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\AboutMeController.cs" />
+    <Compile Include="Controllers\NotesController.cs" />
     <Compile Include="Controllers\SlightEdgeController.cs" />
     <Compile Include="DAL\DataBaseSeedInit.cs" />
     <Compile Include="DAL\PortfolioContext.cs" />
@@ -145,6 +146,10 @@
     <Compile Include="Migrations\202105021413014_Init.cs" />
     <Compile Include="Migrations\202105021413014_Init.Designer.cs">
       <DependentUpon>202105021413014_Init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202105021731056_Validation.cs" />
+    <Compile Include="Migrations\202105021731056_Validation.designer.cs">
+      <DependentUpon>202105021731056_Validation.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Education.cs" />
@@ -157,6 +162,7 @@
     <Compile Include="Models\Technology.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\AboutMeViewModel.cs" />
+    <Compile Include="ViewModels\NoteViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\Portfolio.mdf">
@@ -174,6 +180,7 @@
     <Content Include="Content\Images\Me.jpg" />
     <Content Include="Content\Images\portfolio.png" />
     <Content Include="Content\Images\slideEdge.jpg" />
+    <Content Include="Content\Script.js" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\slider.js" />
     <Content Include="favicon.ico" />
@@ -192,6 +199,11 @@
     <Content Include="Prototype\Index.html" />
     <Content Include="Prototype\slideEdge.html" />
     <Content Include="Prototype\slider.js" />
+    <None Include="Scripts\jquery-3.6.0.intellisense.js" />
+    <Content Include="Scripts\jquery-3.6.0.js" />
+    <Content Include="Scripts\jquery-3.6.0.min.js" />
+    <Content Include="Scripts\jquery-3.6.0.slim.js" />
+    <Content Include="Scripts\jquery-3.6.0.slim.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -205,6 +217,22 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Views\AboutMe\AboutMe.cshtml" />
+    <Content Include="Views\AboutMe\_refs.cshtml" />
+    <Content Include="Views\AboutMe\_userImage.cshtml" />
+    <Content Include="Views\AboutMe\_userInformations.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\_menu.cshtml" />
+    <Content Include="Views\Home\_sliderPartial.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\SlightEdge\SlightEdge.cshtml" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Notes\Notes.cshtml" />
+    <Content Include="Views\Notes\_addNote.cshtml" />
+    <Content Include="Scripts\jquery-3.6.0.slim.min.map" />
+    <Content Include="Scripts\jquery-3.6.0.min.map" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
@@ -212,6 +240,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202105021413014_Init.resx">
       <DependentUpon>202105021413014_Init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202105021731056_Validation.resx">
+      <DependentUpon>202105021731056_Validation.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Portfolio"
+    "\\Portfolio",
+    "\\Portfolio\\Migrations",
+    "\\Portfolio\\Models",
+    "\\Portfolio\\Prototype"
   ],
   "SelectedNode": "\\Portfolio\\Portfolio.sln",
   "PreviewInSolutionExplorer": false

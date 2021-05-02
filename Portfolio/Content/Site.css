@@ -253,8 +253,22 @@ footer {
         margin-top: 35px;
         width: 15%;
         float: left;
-        max-height: 100px;
+        height:50px;
+        font-size:15px;
+        font-weight:bold;
     }
+    .note #titleLabel, .note #textAreaLabel {
+        width:100%;
+        font-size:15px;
+        font-weight:bold;
+        height:100%;
+    }
+    .note #textAreaLabel {
+        resize: none;
+        height: 91%;
+        white-space: pre-wrap;
+    }
+
 
     .note #date {
         font-size: 20px;
@@ -273,15 +287,24 @@ footer {
         border-radius: 5px;
     }
 
-    .note #edit, #delete {
+    .note #edit, #delete, #submit {
         margin: 10px 5px 5px 5px;
         padding: 5px 5px 5px 5px;
         float: right;
         border-radius: 10%;
         width: 10%;
     }
+    .note #submit {
+        border:none;
+        color:cornflowerblue;
+        font-size:20px;
+        font-weight:bold;
+        padding:10px 5px 10px 5px;
+        float:none;
+        margin-top:30px;
+    }
 
-        .note #edit:hover, #delete:hover, #edit:active, #delete:active {
+        .note #edit:hover, #delete:hover, #edit:active, #delete:active, #submit:active, #submit:hover{
             background-color: whitesmoke;
             border-left: 1px solid cornflowerblue;
             border-right: 1px solid cornflowerblue;
