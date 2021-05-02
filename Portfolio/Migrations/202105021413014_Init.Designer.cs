@@ -7,13 +7,13 @@ namespace Portfolio.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class HobbyRelationChange : IMigrationMetadata
+    public sealed partial class Init : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(HobbyRelationChange));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Init));
         
         string IMigrationMetadata.Id
         {
-            get { return "202103122117554_HobbyRelationChange"; }
+            get { return "202105021413014_Init"; }
         }
         
         string IMigrationMetadata.Source

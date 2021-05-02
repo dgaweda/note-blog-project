@@ -1,12 +1,13 @@
-﻿namespace Portfolio.Migrations
-{
-    using Portfolio.DAL;
-    using System;
-    using System.Data.Entity;
-    using System.Data.Entity.Migrations;
-    using System.Linq;
+﻿
+using System;
+using System.Data.Entity;
+using System.Data.Entity.Migrations;
+using System.Linq;
+using Portfolio.DAL;
 
-    public class Configuration : DbMigrationsConfiguration<PortfolioContext>
+namespace Portfolio.Migrations
+{
+    public sealed class Configuration : DbMigrationsConfiguration<Portfolio.DAL.PortfolioContext>
     {
         public Configuration()
         {
