@@ -1,4 +1,5 @@
-# Portfolio
+# IN-PROGRESS
+# note-blog
 # Dariusz Gawęda
 # Technologies: 
 - HTML5/CSS
