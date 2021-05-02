@@ -14,7 +14,7 @@
 
         <nav>
             <a href="link" id="edit">Edit</a>
-            <a href="link" id="delete">Delete</a>
+            <a href="@Url.Action("Delete", "Notes", new { noteId = note.NoteId })" id="delete">Delete</a>
         </nav>
         <p id="date">
             @note.Date
@@ -27,18 +27,15 @@
         @Html.AntiForgeryToken()
 
         <p id="title">
-            @Html.TextBoxFor(i => i.Note.Title)
+            @Html.TextBoxFor(i => i.Note.Title, new { @id = "titleLabel" })
         </p>
 
         <p id="textArea">
-            @Html.TextBoxFor(i => i.Note.Objectives)
+            @Html.TextAreaFor(i => i.Note.Objectives, new { @id = "textAreaLabel" })
         </p>
 
         <nav>
-            <input type="submit" id="delete" value="Add" />
+            <input type="submit" id="submit" value="Add" />
         </nav>
-        <p id="date">
-            @Model.Note.Date
-        </p>
      }
 </section>

@@ -37,5 +37,14 @@ namespace Portfolio.Controllers
             db.SaveChanges();
             return RedirectToAction("Notes", "Notes");
         }
+
+        public ActionResult Delete(int noteId)
+        {
+            var noteToDelete = db.Notes.Find(noteId);
+
+            db.Notes.Remove(noteToDelete);
+            db.SaveChanges();
+            return RedirectToAction("Notes", "Notes");
+        }
     }
 }

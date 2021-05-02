@@ -179,3 +179,4 @@ C:\Users\DarekWork\source\repos\portfolio\Portfolio\obj\Debug\Portfolio.Migratio
 C:\Users\DarekWork\source\repos\portfolio\Portfolio\obj\Debug\Portfolio.csproj.GenerateResource.cache
 C:\Users\DarekWork\source\repos\portfolio\Portfolio\bin\App_Data\Portfolio.mdf
 C:\Users\DarekWork\source\repos\portfolio\Portfolio\bin\App_Data\Portfolio_log.ldf
+C:\Users\DarekWork\source\repos\portfolio\Portfolio\obj\Debug\Portfolio.Migrations.Validation.resources
