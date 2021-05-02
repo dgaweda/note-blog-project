@@ -1,0 +1,44 @@
+﻿@model Portfolio.ViewModels.NoteViewModel
+
+@foreach (var note in Model.Notes)
+{
+    <section class="note">
+
+        <p id="title">
+            @note.Title
+        </p>
+
+        <p id="textArea">
+            @note.Objectives
+        </p>
+
+        <nav>
+            <a href="link" id="edit">Edit</a>
+            <a href="link" id="delete">Delete</a>
+        </nav>
+        <p id="date">
+            @note.Date
+        </p>
+    </section>
+}
+ <section class="note">
+    @using (Html.BeginForm("AddNote", "Notes", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <p id="title">
+            @Html.TextBoxFor(i => i.Note.Title)
+        </p>
+
+        <p id="textArea">
+            @Html.TextBoxFor(i => i.Note.Objectives)
+        </p>
+
+        <nav>
+            <input type="submit" id="delete" value="Add" />
+        </nav>
+        <p id="date">
+            @Model.Note.Date
+        </p>
+     }
+</section>

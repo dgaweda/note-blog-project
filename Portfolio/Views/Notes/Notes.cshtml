@@ -1,0 +1,20 @@
+﻿@model Portfolio.ViewModels.NoteViewModel
+
+@{
+    ViewBag.Title = "Notes";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content">
+    <nav>
+        <a href="@Url.Action("Notes", "AddForm")" id="noteMenuButtons">
+            NEW
+        </a>
+
+    </nav>
+    <br />
+    <hr />
+    @Html.Partial("_addNote", Model)
+   
+</div>
+

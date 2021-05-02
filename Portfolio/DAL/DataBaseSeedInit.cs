@@ -20,7 +20,7 @@ namespace Portfolio.DAL
                 new Menu() { MenuId = 2, Name = "GITHUB", Reference = "https://github.com/dgaweda", Blank = "_blank" },
                 new Menu() { MenuId = 3, Name = "SLIGHT EDGE", ControllerAction = "SlightEdge", ControllerName = "SlightEdge", Blank = null },
                 new Menu() { MenuId = 4, Name = "ABOUT ME", ControllerAction = "AboutMe", ControllerName = "AboutMe", Blank = null },
-                new Menu() { MenuId = 5, Name = "NOTES", ControllerAction = "Index", ControllerName = "Home", Blank = null }
+                new Menu() { MenuId = 5, Name = "NOTES", ControllerAction = "Notes", ControllerName = "Notes", Blank = null }
             };
             Menu.ForEach(menu => context.Menus.AddOrUpdate(menu));
             context.SaveChanges();

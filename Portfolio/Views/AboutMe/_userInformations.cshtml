@@ -1,0 +1,48 @@
+﻿@model Portfolio.ViewModels.AboutMeViewModel
+
+<h5 class="headers">Personal</h5>
+<hr />
+<ul>
+    <li>
+        <h3>@Model.People.Name @Model.People.Lastname</h3>
+    </li>
+</ul>
+
+<h5 class="headers">Education</h5>
+<hr />
+<ul>
+    @foreach (var school in Model.Education)
+    {
+        <li>
+            <h3>@school.Name - @school.Major</h3> <section style="color:darkslategray">From - @school.From - To @school.To</section>
+        </li>
+    }
+</ul>
+
+
+<h2 class="headers">Hobby</h2>
+<hr />
+<ul>
+    @foreach (var hobby in Model.Hobbies)
+    {
+        <li>
+            @hobby.Name
+        </li>
+    }
+</ul>
+
+<h2 class="headers">General</h2>
+<hr />
+<p class="text">
+    @Model.People.GeneralInfo
+</p>
+
+<h2 class="headers">Technologies</h2>
+<hr />
+
+@foreach (var tech in Model.PersonTechnologies)
+{
+    <span class="tech">
+        @tech.Name
+    </span>
+}

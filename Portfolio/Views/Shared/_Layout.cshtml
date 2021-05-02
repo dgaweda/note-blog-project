@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="@Url.Content("~/Content/Site.css")">
+    <link rel="icon" href="@Url.Content("~/Content/Images/portfolio.png")" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <span class="name">
+            Hi! I'm <a href="@Url.Action("Index", "Home")">Darek!</a>
+        </span>
+        
+        @Html.Action("Menu", "Home")
+    </header>
+
+    <article>
+        @RenderBody()
+    </article>
+
+    <footer>
+        © 2021 Dariusz Gawęda - ASP.NET MVC app
+    </footer>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
+
+
