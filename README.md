@@ -6,4 +6,7 @@
 - Razor
 - EntityFramework
 - Swagger
+- VS 2019 IDE
+- MSSql Server
+- jQuery
 # My Homepage
